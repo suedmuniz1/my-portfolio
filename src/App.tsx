@@ -33,7 +33,7 @@ function App() {
       </div>
       <div id="header-and-content-container" className="w-3/4 mx-auto">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
