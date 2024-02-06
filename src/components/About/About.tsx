@@ -1,4 +1,3 @@
-import React from "react";
 import SkillIcon from "./SkillIcon/SkillIcon";
 import { skillsIconsNames } from "../../constants";
 

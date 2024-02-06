@@ -1,5 +1,4 @@
 import { Tooltip } from "flowbite-react";
-import React from "react";
 import { MediaProps } from "../Footer/Footer";
 
 const MediaIcon: React.FC<MediaProps> = ({ name, icon, link }) => {

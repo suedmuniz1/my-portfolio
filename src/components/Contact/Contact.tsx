@@ -1,5 +1,4 @@
 import { Tooltip } from "flowbite-react";
-import React from "react";
 import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { GrGithub } from "react-icons/gr";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 import { FaLinkedin } from "react-icons/fa6";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";

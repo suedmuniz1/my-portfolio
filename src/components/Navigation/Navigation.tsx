@@ -1,4 +1,3 @@
-import React from "react";
 import { navOptions } from "../../constants";
 import NavigationOption from "./NavigationOption/NavigationOption";
 import { FaCodeFork, FaStar } from "react-icons/fa6";

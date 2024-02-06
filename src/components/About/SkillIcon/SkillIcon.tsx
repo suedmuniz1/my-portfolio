@@ -1,4 +1,3 @@
-import React from "react";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaGitAlt, FaJava, FaLinux, FaReact } from "react-icons/fa6";
 import {
