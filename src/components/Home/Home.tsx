@@ -7,7 +7,7 @@ const Home = () => {
         <div className="w-full flex justify-center">
           <img
             className="w-96 h-80"
-            src="./src/assets/programmer-2.png"
+            src="/assets/programmer-2.png"
             alt="profile-image"
           />
           <div className="w-1/2 flex flex-col justify-center">
@@ -33,7 +33,7 @@ const Home = () => {
       <div className="flex flex-column justify-center items-center rounded-3xl p-14 info-card">
         <img
           className="w-52 h-52 mr-12"
-          src="./src/assets/profile-image.png"
+          src="/assets/profile-image.png"
           alt="Sued Nepomuceno"
         />
         <div>
