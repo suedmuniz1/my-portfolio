@@ -1,7 +1,7 @@
 export const navOptions: Record<string, any> = [
   {
     title: "Home",
-    link: "/",
+    link: "/home",
   },
   {
     title: "About",

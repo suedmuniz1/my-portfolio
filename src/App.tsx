@@ -1,42 +1,46 @@
-import { useState } from "react";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
-import { Route, Routes } from "react-router";
+import { Navigate, RouterProvider } from "react-router";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
 
+import { createBrowserRouter } from "react-router-dom";
 import "./App.css";
+import { MainLayout } from "./components/MainLayout";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    index: true,
+    element: <Navigate to="/home" replace />,
+  },
+  {
+    path: "/",
+    element: <MainLayout />,
+    children: [
+      {
+        path: "home",
+        element: <Home />,
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+    ],
+  },
+]);
 
 function App() {
-  const [header, setHeader] = useState(false);
-
-  const handleScroll = () => {
-    if (window.scrollY >= 50) {
-      setHeader(true);
-    } else {
-      setHeader(false);
-    }
-  };
-
-  window.addEventListener("scroll", handleScroll);
-
   return (
-    <div>
-      <div
-        id="header-content-container"
-        className={`flex justify-center sticky top-0 ${
-          header ? "header-active" : ""
-        }`}
-      >
-        <Header />
-      </div>
+    <div
+    // className="bg-gradient-to-b from-black from-30% via-amber-950 via-60% to-amber-900 to-90%"
+    >
       <div id="header-and-content-container" className="w-3/4 mx-auto">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <RouterProvider router={router} />
       </div>
       <Footer />
     </div>
