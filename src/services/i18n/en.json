@@ -1,0 +1,35 @@
+{
+    "components": {
+        "navigation": {
+            "home": "Home",
+            "about": "About",
+            "contact": "Contact"
+        },
+        "home": {
+            "helloVisitor": "Hello visitor!",
+            "im": "I'm",
+            "introduction": "Introduction",
+            "introductionText": "I'm a guy that likes programming and learning new things. My father encouraged me to start building my first algorythms, and since then I started to go deep in programming, learning new tecnologies,building projects, and growing up professionally."
+        },
+        "footer": {
+            "madeBy": "Designed and developed by: "
+        },
+        "about": {
+            "who": "Who",
+            "iAm": "I am",
+            "aboutMe": "Hi, my name is Sued Nepomuceno Muniz. I'm from Ceará, Brazil. I'm graduated in Information Systems, and I'm currently employed as Fullstack Software Developer at Avenue Code. I started my carrer at Avenue Code as an intern, where I could learn too much during this period. I was able to improve my skills specially in Java with Spring, and React. After the internship period I got hired as a Junior Software Developer and started my career effectivelly. For now, I keep trying to improve my skills. I'm always looking for new challenges, building new personal projects, using new technologies, getting familiar with the new trends, and working hard on my current job.",
+            "professionalSkillSet": "Professional skill set",
+            "and": "and",
+            "tools": "Tools"
+        },
+        "contact": {
+            "contact": "Contact",
+            "projectsText": "If you want to see more about my projects, please check out my",
+            "professionalInformation": "For professional information and working experiences, please check out my",
+            "personalActivities": "To follow my daily routine and personal activities, follow me on"
+        },
+        "header": {
+            "goToHomePage": "Go to Home Page"
+        }
+    }
+}

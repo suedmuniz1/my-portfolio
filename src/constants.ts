@@ -1,14 +1,14 @@
 export const navOptions: Record<string, any> = [
   {
-    title: "Home",
+    title: "home",
     link: "/home",
   },
   {
-    title: "About",
+    title: "about",
     link: "/about",
   },
   {
-    title: "Contact",
+    title: "contact",
     link: "/contact",
   },
 ];

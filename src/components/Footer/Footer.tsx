@@ -2,6 +2,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";
 import MediaIcon from "../MediaIcon/MediaIcon";
+import { useTranslation } from "react-i18next";
 
 export type MediaProps = {
   name: string;
@@ -28,10 +29,12 @@ const medias: MediaProps[] = [
 ];
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex justify-center items-center bg-gray-900 text-white py-3 mt-20">
       <span className="text-1xl">
-        Designed and developed by{" "}
+        {t("components.footer.madeBy")}
         <strong className="text-orange-400">Sued Nepomuceno</strong>.
       </span>
       <div className="flex justify-between items-center w-36 mx-20">

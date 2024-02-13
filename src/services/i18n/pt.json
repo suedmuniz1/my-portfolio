@@ -1,0 +1,36 @@
+{
+    "components": {
+        "navigation": {
+            "home": "Início",
+            "about": "Sobre",
+            "contact": "Contato"
+        },
+        "home": {
+            "helloVisitor": "Olá visitante!",
+            "im": "Eu sou",
+            "at": "na",
+            "introduction": "Introdução",
+            "introductionText": "Sou um cara que gosta de programar e aprender coisas novas. Meu pai me incentivou a começar a construir meus primeiros algoritmos, e desde então comecei a me aprofundar na programação, aprendendo novas tecnologias, construindo projetos e crescendo profissionalmente."
+        },
+        "footer": {
+            "madeBy": "Projetado e desenvolvido por: "
+        },
+        "about": {
+            "who": "Quem",
+            "iAm": "sou eu",
+            "aboutMe": "Olá, meu nome é Sued Nepomuceno Muniz. Sou do Ceará, Brasil. Sou formado em Sistemas de Informação e atualmente trabalho como Fullstack Software Developer na Avenue Code. Iniciei minha carreira na Avenue Code como estagiário, onde pude aprender muito nesse período. Pude aprimorar minhas habilidades, principalmente focando em Java com Spring e React. Após o período de estágio fui contratado como Desenvolvedor de Software Júnior e iniciei minha carreira de forma efetiva. No momento atual, continuo tentando melhorar minhas habilidades. Estou sempre em busca de novos desafios, construindo novos projetos pessoais, utilizando novas tecnologias, conhecendo as novas tendências e trabalhando duro no meu trabalho atual.",
+            "professionalSkillSet": "Conjunto de habilidades profissional",
+            "and": "e",
+            "tools": "Ferramentas"
+        },
+        "contact": {
+            "contact": "Contato",
+            "projectsText": "Se quiser ver mais sobre meus projetos, acesse o meu",
+            "professionalInformation": "Para maiores informações e experiências profissionais, acesse o meu",
+            "personalActivities": "Para acompanhar minha rotina e atividades pessoais, siga-me no"
+        },
+        "header": {
+            "goToHomePage": "Ir para a página inicial"
+        }
+    }
+}
