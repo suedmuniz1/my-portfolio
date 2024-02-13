@@ -33,7 +33,7 @@ const SkillIcon: React.FC<SkillIconProps> = ({ skill }) => {
 
   return (
     <Tooltip content={skill} placement="top">
-      <div className="border-2 border-white rounded-2xl p-5 mx-2 my-2">
+      <div className="border-2 border-white rounded-2xl p-5 mx-2 my-2 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
         {icon}
       </div>
     </Tooltip>

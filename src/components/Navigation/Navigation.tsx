@@ -11,7 +11,7 @@ const Navigation = () => {
         ))}
       </div>
       <a href="https://github.com/suedmuniz1/my-portfolio" target="_blank">
-        <button className="w-20 h-10 flex justify-around items-center rounded-2xl text-white px-2 bg-orange-500 transition easy-in-out delay-150 duration-300 hover:bg-orange-800">
+        <button className="w-20 h-10 flex justify-around items-center rounded-2xl text-white px-2 bg-orange-500 transition easy-in-out delay-150 duration-300 hover:bg-orange-800 hover:scale-110">
           <FaCodeFork size={20} />
           <FaStar size={20} />
         </button>
