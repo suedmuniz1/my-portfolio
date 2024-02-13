@@ -20,7 +20,10 @@ const Contact = () => {
           <strong className="text-orange-400">Github</strong>:
           <div className="flex justify-center items-center my-5">
             <button className="text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-orange-400 duration-300">
-              <Tooltip content="Go to Github" placement="right">
+              <Tooltip
+                content={`${t("components.contact.goTo")} Github`}
+                placement="right"
+              >
                 <a
                   href="https://github.com/suedmuniz1"
                   target="_blank"
@@ -38,7 +41,10 @@ const Contact = () => {
           <strong className="text-orange-400">LinkedIn</strong>:
           <div className="flex justify-center items-center my-5">
             <button className="text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-orange-400 duration-300">
-              <Tooltip content="Go to LinkedIn" placement="right">
+              <Tooltip
+                content={`${t("components.contact.goTo")} LinkedIn`}
+                placement="right"
+              >
                 <a
                   href="https://linkedin.com/in/suedmuniz"
                   target="_blank"
@@ -56,7 +62,10 @@ const Contact = () => {
           <strong className="text-orange-400">Instagram</strong>:
           <div className="flex justify-center items-center my-5">
             <button className="text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-orange-400 duration-300">
-              <Tooltip content="Go to Instagram" placement="right">
+              <Tooltip
+                content={`${t("components.contact.goTo")} Instagram`}
+                placement="right"
+              >
                 <a
                   href="https://instagram.com/suedm1"
                   target="_blank"

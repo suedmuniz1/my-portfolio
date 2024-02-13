@@ -26,7 +26,8 @@
             "contact": "Contact",
             "projectsText": "If you want to see more about my projects, please check out my",
             "professionalInformation": "For professional information and working experiences, please check out my",
-            "personalActivities": "To follow my daily routine and personal activities, follow me on"
+            "personalActivities": "To follow my daily routine and personal activities, follow me on",
+            "goTo": "go to"
         },
         "header": {
             "goToHomePage": "Go to Home Page"

@@ -27,7 +27,8 @@
             "contact": "Contato",
             "projectsText": "Se quiser ver mais sobre meus projetos, acesse o meu",
             "professionalInformation": "Para maiores informações e experiências profissionais, acesse o meu",
-            "personalActivities": "Para acompanhar minha rotina e atividades pessoais, siga-me no"
+            "personalActivities": "Para acompanhar minha rotina e atividades pessoais, siga-me no",
+            "goTo": "ir para o"
         },
         "header": {
             "goToHomePage": "Ir para a página inicial"
