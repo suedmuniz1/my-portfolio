@@ -8,5 +8,5 @@ suednepomuceno.vercel.app
 
 In order to run it locally:
 
-`npm install` - Installing the dependencies
-`npm run dev` - Run the application
+`npm install` - To install the dependencies
+`npm run dev` - To run the application
