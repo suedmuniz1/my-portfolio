@@ -7,14 +7,14 @@ const Contact = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="text-white w-full mt-20 mb-28">
+    <div className="text-white w-full mt-40 mb-28">
       <div className="text-center">
-        <div className="mb-16 text-orange-400 text-4xl">
+        <div className="mb-16 text-orange-400 text-2xl font-bold">
           {t("components.contact.contact")}
         </div>
       </div>
 
-      <div className="text-2xl info-card rounded-3xl text-center p-5">
+      <div className="text-lg info-card rounded-3xl text-center p-5">
         <div className="my-10">
           {`${t("components.contact.projectsText")} `}
           <strong className="text-orange-400">Github</strong>:

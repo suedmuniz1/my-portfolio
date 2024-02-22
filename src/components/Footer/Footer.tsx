@@ -32,12 +32,12 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex justify-center items-center bg-gray-900 text-white py-3 mt-20">
+    <div className="flex justify-center items-center bg-gray-900 text-white py-2 mt-10">
       <span className="text-1xl">
         {t("components.footer.madeBy")}
         <strong className="text-orange-400">Sued Nepomuceno</strong>.
       </span>
-      <div className="flex justify-between items-center w-36 mx-20">
+      <div className="flex justify-between items-center ml-5">
         {medias.map(({ name, icon, link }) => (
           <MediaIcon key={name} name={name} icon={icon} link={link} />
         ))}

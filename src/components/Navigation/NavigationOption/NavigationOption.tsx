@@ -15,7 +15,7 @@ const NavigationOption: React.FC<NavigationOptionProps> = ({
   return (
     <NavLink
       id="nav-link"
-      className="text-white text-2xl mx-4 p-3 hvr-underline-reveal"
+      className="text-white text-lg font-semibold p-2 mr-2 hvr-underline-reveal"
       to={link}
       key={title}
     >

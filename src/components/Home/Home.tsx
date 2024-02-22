@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="text-white">
       <div className="w-full flex justify-center items-center my-32">
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center flex-wrap">
           <img
             className="w-96 h-80"
             src="/assets/programmer-2.png"
@@ -35,17 +35,17 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-column justify-center items-center rounded-3xl p-14 info-card">
+      <div className="flex flex-wrap flex-column justify-center items-center rounded-3xl p-14 info-card">
         <img
-          className="w-52 h-52 mr-12"
+          className="w-32 h-32 md:w-52 md:h-52 mb-10"
           src="/assets/profile-image.png"
           alt="Sued Nepomuceno"
         />
         <div>
-          <p className="text-orange-400 text-center font-bold text-4xl pb-10">
+          <p className="text-orange-400 text-center font-bold text-2xl md:text-3xl pb-10">
             {t("components.home.introduction")}
           </p>
-          <p className="text-justify text-2xl leading-10">
+          <p className="text-justify text-lg leading-10 md:text-2xl">
             {t("components.home.introductionText")}
           </p>
         </div>
